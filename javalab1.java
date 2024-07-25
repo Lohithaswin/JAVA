@@ -32,5 +32,41 @@ System.out.println(sum1);
     System.out.println(s+k);//adding string to int
 }
 }
+//4.using conditional operator
+public class Main{
+public static void main(String[]args){
+int x=19;
+int y;
+y=(x==1)?21:38; //using condtional operator
+System.out.println(y);
+y=(x==19)?22:39;
+System.out.println(y);
+}}
+
+//5. length() method
+public class Main{
+public static void main(String[]args){
+String s="hello world";
+System.out.println("The length of string s is:"+s.length());
+}}
+
+//6.toLowerCase() and toUpperCase()
+public class Main{
+public static void main(String[]args){
+String s="Hello woRlD";
+System.out.println(s.toLowerCase());
+System.out.println(s.toUpperCase());
+}}
+
+//7. indexOf() method
+public class Main{
+public static void main(String[]args){
+String s="Hello nEw woRlD";
+System.out.println(s.indexOf("nEw"));}}
+
+
+
+
+
 
 
